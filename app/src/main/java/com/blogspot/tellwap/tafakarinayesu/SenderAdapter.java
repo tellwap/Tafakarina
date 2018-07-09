@@ -62,6 +62,7 @@ public class SenderAdapter extends RecyclerView.Adapter<SenderAdapter.ViewHolder
 
         }else{
             holder.senderMessage.setGravity(Gravity.END);
+
             holder.senderMessage.setBackgroundResource(R.drawable.message_chat_background);
             holder.senderMessage.setTextColor(Color.WHITE);
 
