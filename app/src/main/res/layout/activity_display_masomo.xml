@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.blogspot.tellwap.tafakarinayesu.ActivityDisplayMasomo">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="55dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardElevation="0.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Event"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="day"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewPalsm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="palsm"
+                    android:textColor="@android:color/black"/>
+
+                <!--wimbo wa mwanzo-->
+
+                <TextView
+                    android:id="@+id/textViewWimboWaMwanzoTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="10dp"
+                    android:text="wimbo wa mwanzo"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/wimboWaMwanzoMstari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="wimbowaMwanzo mstari"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:id="@+id/textViewWimboWaMwanzo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="10dp"
+                    android:text="wimbo wa mwanzo content"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:gravity="start" />
+
+                <!--somo la kwanza-->
+
+                <TextView
+                    android:id="@+id/textViewSomo1Tittle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="10dp"
+                    android:text="SOMO 1"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewSomo1Mstari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Somo la kwanza mstari"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textViewSomo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="10dp"
+                    android:text="wimbo wa mwanzo content"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <!--Wimbo wa katikati-->
+
+
+                <TextView
+                    android:id="@+id/textViewWimboWaKatikatiTittle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="10dp"
+                    android:text="WIMBO WA KATIKATI"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textViewWimboWaKatikatiMstari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Wimbo wa katikait"
+                     />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textViewWimboWaKatikati"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="wimbo wa katitakati content"
+                    android:textSize="16dp" />
+
+                <!--somo la pili-->
+
+
+                <TextView
+                    android:id="@+id/textViewSomo2Tittle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="SOMO2"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewSomo2Mstari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Wimbo wa katikait"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textViewSomo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="wimbo wa katitakati content"
+                    android:textSize="16dp" />
+
+                <!--shangilio-->
+
+
+                <TextView
+                    android:id="@+id/textViewShangilioTittle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="SHANGILIO"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewShangilioMstari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Wimbo wa katikait"
+                    android:textColor="@android:color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewShangilio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="wimbo wa katitakati content"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <!--Somo la injili-->
+
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textViewInjiliTittle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="INJILI"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textViewInjiliMstari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Wimbo wa katikait"
+                  />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textViewInjili"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="wimbo wa katitakati content"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

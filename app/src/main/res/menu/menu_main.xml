@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.blogspot.tellwap.tafakarinayesu.MainActivity">
+    <!--<item-->
+        <!--android:id="@+id/action_new_group"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="group jipya"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_profile"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="angalia profile"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>

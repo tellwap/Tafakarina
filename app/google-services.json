@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020049468959",
+    "firebase_url": "https://tafakarinayesu-be799.firebaseio.com",
+    "project_id": "tafakarinayesu-be799",
+    "storage_bucket": "tafakarinayesu-be799.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020049468959:android:46e7539b6a2f6ab8",
+        "android_client_info": {
+          "package_name": "com.blogspot.tellwap.tafakarinayesu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020049468959-rhjgaetcag9q7facqnj9amtgeqq2hrhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.tellwap.tafakarinayesu",
+            "certificate_hash": "4c5362e68718f8d5145dc3d80510701b995bc28d"
+          }
+        },
+        {
+          "client_id": "1020049468959-12a22nl3ku3mb73gpo8pg67h2om5t1hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYBI7rAjsF9TNLxgxK4HMlfj6j8fw4lUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020049468959-12a22nl3ku3mb73gpo8pg67h2om5t1hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

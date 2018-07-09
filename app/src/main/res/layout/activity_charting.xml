@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.tellwap.tafakarinayesu.ChartingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarChat"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <TextView
+              android:id="@+id/toolbarChatName"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:text="Chami epimark"
+              android:textColor="@android:color/black"
+              android:textSize="17sp" />
+
+          <TextView
+              android:id="@+id/toolbarSeen"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:text="online"
+              android:textColor="@android:color/black" />
+
+      </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_above="@+id/linearLayoutId"
+        android:layout_below="@+id/toolbarChat"
+        android:id="@+id/recyclerViewCharting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffff"
+        android:weightSum="10">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:src="@drawable/ic_add_black_24dp" />
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#ffff"
+            android:hint="Enter text"
+            android:paddingBottom="12dp"
+            android:paddingRight="10dp"
+            android:paddingTop="16dp" />
+
+        <ImageButton
+            android:id="@+id/buttonSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="#ffff"
+            android:padding="10dp"
+            android:src="@drawable/ic_send_black_24dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

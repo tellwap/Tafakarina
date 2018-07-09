@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blogspot.tellwap.tafakarinayesu.RegisterUser">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.CardView
+        android:elevation="@dimen/cardview_default_elevation"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:textColor="#4093a4"
+             android:layout_margin="20dp"
+               android:gravity="center"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+               android:text="Jisajili na TafakariApp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+           <EditText
+               android:layout_margin="20dp"
+               android:padding="15dp"
+               android:background="@drawable/input_background"
+               android:id="@+id/editTextUsername"
+               android:hint="andika jina lako"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:textSize="18sp"
+               android:layout_margin="10dp"
+               android:id="@+id/buttonRegister"
+               android:textColor="#ffff"
+               android:backgroundTint="@color/colorPrimary"
+               android:layout_marginTop="120dp"
+               android:text="Jisajili"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+       </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
